@@ -1,5 +1,7 @@
 # vim: ft=ruby
 
+notification :growl
+
 guard 'bundler' do
   watch('Gemfile')
 end

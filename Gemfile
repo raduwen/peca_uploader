@@ -33,6 +33,7 @@ group :development do
   gem 'guard-livereload'
   gem 'guard-pow' if /darwin/ =~ RUBY_PLATFORM
   gem 'guard-spring'
+  gem 'growl'
 end
 
 group :development, :test do
