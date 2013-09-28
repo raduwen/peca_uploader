@@ -11,7 +11,7 @@ class UploadsController < ApplicationController
     if @upload.save
       redirect_to root_url, notice: 'Upload was successfully created.'
     else
-      render action: 'new'
+      render 'new'
     end
   end
 
