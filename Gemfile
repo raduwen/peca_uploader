@@ -46,13 +46,14 @@ group :development, :test do
   gem 'hirb'
   gem 'hirb-unicode'
   gem 'awesome_print'
+
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end
 
 group :test do
-  gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'database_rewinder'
-  gem 'factory_girl_rails'
   gem 'forgery'
   gem 'capybara'
 
