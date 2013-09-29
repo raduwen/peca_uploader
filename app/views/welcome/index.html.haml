@@ -1,3 +1,8 @@
+= render 'uploads/form', upload: @upload
+
 %ul
   %li Top Rate
   %li Today
+
+- @files.each do |file|
+  = link_to file.filename, download_path(file.id)
