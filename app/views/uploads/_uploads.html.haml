@@ -1,0 +1,10 @@
+%table.table
+  %tr
+    %th Filename
+    %th CotentType
+    %th Date
+    %th
+  - uploads.each do |upload|
+    = render upload
+= paginate uploads
+

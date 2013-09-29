@@ -1,8 +1,10 @@
-= render 'uploads/form', upload: @upload
-
-%ul
-  %li Top Rate
-  %li Today
-
-- @files.each do |file|
-  = link_to file.filename, download_path(file.id)
+.page-header
+  %h3 Latest uploads
+- content_for :sidebar do
+  %a.btn.btn-success(href="#upload_modal" role="button" class="btn" data-toggle="modal") FileUpload
+  %ul.nav.nav-list
+    -# TODO: JSでリストの切り替え
+    -#%li= link_to 'Top Rate', '#'
+    -#%li= link_to 'Today', '#'
+= render 'uploads/uploads', uploads: @files
+= render 'uploads/modal', upload: @upload

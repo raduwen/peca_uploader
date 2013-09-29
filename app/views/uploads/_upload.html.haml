@@ -1,0 +1,5 @@
+%tr
+  %td= upload.filename
+  %td= upload.content_type
+  %td= upload.created_at
+  %td= link_to 'DL', download_path(upload.id)
