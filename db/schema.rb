@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130928060122) do
+ActiveRecord::Schema.define(version: 20130929073558) do
 
   create_table "uploads", force: true do |t|
     t.string   "filename"
@@ -19,9 +19,10 @@ ActiveRecord::Schema.define(version: 20130928060122) do
     t.string   "comment"
     t.string   "ip"
     t.integer  "view_count"
-    t.binary   "data",       limit: 5242880
+    t.binary   "data",         limit: 5242880
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "content_type"
   end
 
 end

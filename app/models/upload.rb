@@ -6,6 +6,7 @@ class Upload < ActiveRecord::Base
   validates :filename, presence: true, format: { with: /\.[A-Za-z]+\Z/ }
   validates :ext, presence: true
   validates :ip, presence: true
+  validates :content_type, presence: true
 
   private
 
@@ -13,10 +14,15 @@ class Upload < ActiveRecord::Base
     set_filename
     set_ext
     set_data
+    set_content_type
   end
 
   def set_data
     self.data = @file.read
+  end
+
+  def set_content_type
+    self.content_type = @file.content_type
   end
 
   def set_filename

@@ -27,6 +27,11 @@ describe Upload do
       include_context "should not be valid"
     end
 
+    context "ファイルタイプが設定されていなければ" do
+      before { subject.stub(:set_content_type).and_return("") }
+      include_context "should not be valid"
+    end
+
     context "IPが設定されていなければ" do
       before { subject.ip = "" }
       include_context "should not be valid"
