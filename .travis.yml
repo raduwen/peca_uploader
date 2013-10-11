@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.0.0
+gemfile: Gemfile.ci
+before_script:
+  - cp config/database.sqlite.yml config/database.yml
+script:
+  - RAILS_ENV=test bundle exec rake db:migrate --trace
+  - bundle exec rake db:test:prepare
+  - bundle exec rake
