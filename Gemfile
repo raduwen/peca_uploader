@@ -23,6 +23,8 @@ end
 
 group :development, :test do
   gem 'guard-spring'
+  gem 'guard-bundler'
+  gem 'guard-migrate'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
 end
