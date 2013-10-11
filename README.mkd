@@ -7,3 +7,7 @@ PecaUploader
 
 ----------------
 vim: ft=markdown
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/raduwen/peca_uploader/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
