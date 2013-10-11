@@ -2,8 +2,7 @@ PecaUploader
 ============
 
 [![Build Status](https://travis-ci.org/raduwen/peca_uploader.png?branch=master)](https://travis-ci.org/raduwen/peca_uploader)
-
 [![Coverage Status](https://coveralls.io/repos/raduwen/peca_uploader/badge.png?branch=master)](https://coveralls.io/r/raduwen/peca_uploader?branch=master)
-
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/raduwen/peca_uploader/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 ----------------
 vim: ft=markdown
