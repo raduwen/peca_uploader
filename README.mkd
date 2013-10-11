@@ -5,5 +5,11 @@ PecaUploader
 [![Coverage Status](https://coveralls.io/repos/raduwen/peca_uploader/badge.png?branch=master)](https://coveralls.io/r/raduwen/peca_uploader?branch=master)
 [![Dependency Status](https://gemnasium.com/raduwen/peca_uploader.png)](https://gemnasium.com/raduwen/peca_uploader)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/raduwen/peca_uploader/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+Issues
+------
+
+We use [waffle.io](https://waffle.io/raduwen/peca_uploader "waffle.io")
+
 ----------------
 vim: ft=markdown
