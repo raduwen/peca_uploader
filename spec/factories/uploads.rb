@@ -2,8 +2,9 @@
 
 FactoryGirl.define do
   factory :upload do
-    filename "xx.png"
-    ext      ".png"
-    data     "asdf"
+    filename     "xx.png"
+    ext          ".png"
+    content_type "image/png"
+    data         "asdf"
   end
 end
